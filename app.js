@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const port = parseInt(process.env.PORT) || 9000
+const port = parseInt(process.env.PORT) || 8000
 const data = require('./api/instructorDogs')
 
 app.use(cors())
